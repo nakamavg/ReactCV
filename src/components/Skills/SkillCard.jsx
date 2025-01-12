@@ -12,7 +12,7 @@ const SkillCard = ({ title, description, isSoftSkill }) => {
 				<h3 className={`skill-title ${titleSize} font-semibold text-yellow-300 text-center transition-opacity duration-300`}>{title}</h3>
 			</div>
 			<div
-				className={`skill-description mt-4 w-full bg-gradient-to-r from-blue-400 to-purple-500 p-4 rounded-lg transition-all duration-500 max-h-0 opacity-0 group-hover:max-h-96 group-hover:opacity-100 overflow-hidden`}
+				className={`skill-description mt-4 w-full bg-gradient-to-r from-blue-400 to-purple-500 p-4 rounded-lg transition-all duration-500 max-h-96 opacity-100 sm:max-h-0 sm:opacity-0 sm:group-hover:max-h-96 sm:group-hover:opacity-100 overflow-hidden`}
 			>
 				<ul className="skill-description-list list-disc list-inside text-white text-xs sm:text-sm md:text-base text-center">
 					{description.map((desc, index) => (
