@@ -19,7 +19,14 @@
 }
 
 /* Reset global styles */
+html, body {
+  height: 100%; /* Asegura que html y body ocupen toda la altura */
+  margin: 0;
+  padding: 0;
+}
+
 body, .App {
+  min-height: 100vh; /* Asegura que body y .App ocupen toda la altura */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,6 +34,12 @@ body, .App {
   color: var(--text-color);
   font-family: Arial, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  flex-grow: 1; /* Asegura que .App ocupe el espacio restante */
 }
 
 * {
