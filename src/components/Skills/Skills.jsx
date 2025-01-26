@@ -45,7 +45,7 @@ const Skills = () => {
           checked={showTechnical}
           onChange={() => setShowTechnical(!showTechnical)}
           label1="Habilidades Técnicas"
-          label2="Habilidades Blandas"
+          label2="Hablidades Transversales"
         />
       </div>
 
