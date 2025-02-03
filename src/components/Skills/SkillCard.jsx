@@ -24,7 +24,7 @@ const SkillCard = ({ title, description, isSoftSkill }) => {
 			{/* Descripción debajo de la esfera, solo si no es soft skill */}
 			{!isSoftSkill && (
 				<div className="mt-4 w-full bg-gradient-to-r from-blue-400 to-purple-500 p-4 rounded-lg transition-all duration-500 max-h-96 opacity-100 overflow-hidden">
-					<ul className="list-disc list-inside text-white text-base sm:text-lg md:text-xl text-center">
+					<ul className="list-none list-inside text-white text-base sm:text-lg md:text-xl text-center">
 						{description.map((desc, index) => (
 							<li key={index} className="mb-2">
 								{desc}

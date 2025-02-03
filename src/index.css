@@ -1,21 +1,20 @@
 :root {
   /* Variables para modo claro */
-  --background-color: #ffffff;
-  --text-color: #333333;
-  --card-background: #f9f9f9;
-  --card-border: #dddddd;
-  --highlight-color: #0078d7;
-  --hover-background: #e3e3e3;
+  --background-color: #ffffff; /* Cambia este valor */
+  --text-color: #333333; /* Cambia este valor */
+  --card-background: #f9f9f9; /* Cambia este valor */
+  --card-border: #dddddd; /* Cambia este valor */
+  --highlight-color: #0078d7; /* Cambia este valor */
+  --hover-background: #e3e3e3; /* Cambia este valor */
 }
-
 .App.dark {
   /* Variables para modo oscuro */
-  --background-color: #1e1e1e;
-  --text-color: #f5f5f5;
-  --card-background: #2a2a2a;
-  --card-border: #444444;
-  --highlight-color: #4fa9ff;
-  --hover-background: #333333;
+  --background-color: #1e1e1e; /* Cambia este valor */
+  --text-color: #f5f5f5; /* Cambia este valor */
+  --card-background: #2a2a2a; /* Cambia este valor */
+  --card-border: #444444; /* Cambia este valor */
+  --highlight-color: #4fa9ff; /* Cambia este valor */
+  --hover-background: #333333; /* Cambia este valor */
 }
 
 /* Reset global styles */
