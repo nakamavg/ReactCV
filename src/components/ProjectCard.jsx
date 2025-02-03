@@ -34,7 +34,7 @@ const ProjectCard = ({ project, index }) => {
         <div
             id={`card-${index}`}
             key={index}
-            className="bg-gradient-to-r from-blue-400 to-purple-500 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 border-4 border-yellow-400 hover:border-yellow-500 relative overflow-hidden"
+            className="bg-gradient-to-r from-blue-400 to-purple-500 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-102 border-4 border-yellow-400 hover:border-yellow-500 relative overflow-hidden"
             onMouseMove={(e) => handleMouseMove(e, index)}
             onMouseLeave={() => handleMouseLeave(index)}
             style={{ transition: "transform 0.2s ease-out" }}
