@@ -1,5 +1,4 @@
 import React from "react";
-import { handleMouseMove, handleMouseLeave } from "./utils";
 
 const ProjectCard = ({ project, index }) => {
     const renderPartners = (partners, partnerLinks) => {
@@ -35,8 +34,6 @@ const ProjectCard = ({ project, index }) => {
             id={`card-${index}`}
             key={index}
             className="bg-gradient-to-r from-blue-400 to-purple-500 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-102 border-4 border-yellow-400 hover:border-yellow-500 relative overflow-hidden"
-            onMouseMove={(e) => handleMouseMove(e, index)}
-            onMouseLeave={() => handleMouseLeave(index)}
             style={{ transition: "transform 0.2s ease-out" }}
         >
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-white opacity-20 pointer-events-none"></div>
